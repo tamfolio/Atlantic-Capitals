@@ -1,0 +1,50 @@
+.offer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    background-color: rgba(26, 33, 104, 0.06);
+    padding: 30px 10px;
+}
+
+.offer-container h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #434343;
+    margin-top: 60px;
+}
+
+.offer-container h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 74px;
+    color: #1A2168;
+}
+
+.offer-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-box {
+    width: 379px;
+    height: 444px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
