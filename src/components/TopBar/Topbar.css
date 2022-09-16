@@ -7,3 +7,32 @@
     justify-content: space-between;
     padding: 5px 30px;
 }
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone,
+.email {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.phone p,
+.email p {
+    font-size: 16px;
+}
+
+.topbar-icons {
+    color: #fff;
+}
+
+.topbar-icons .socials {
+    margin-right: 15px;
+}

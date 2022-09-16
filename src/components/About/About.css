@@ -1,0 +1,76 @@
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right {
+    flex: 1;
+    position: relative;
+}
+
+.about-left h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #434343;
+}
+
+.about-left h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: #1A2168;
+}
+
+.about-left p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.about-left .sub-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.about-left .sub-section .left,
+.about-left .sub-section .right2 {
+    flex: 1;
+}
+
+.about-left .sub-section .right,
+.about-left .sub-section .left2 {
+    flex: 3;
+}
+
+.about-right .about-right-img {
+    width: 637px;
+    height: 701px;
+    z-index: 5;
+}
+
+.about-right .about-right-logo {
+    position: absolute;
+    bottom: -135px;
+    left: 20px;
+}
+
+.about-right .blue-backdrop {
+    width: 494px;
+    height: 817px;
+    background-color: #1A2168;
+    position: absolute;
+    top: -63px;
+    z-index: -3;
+    right: -49px;
+}
