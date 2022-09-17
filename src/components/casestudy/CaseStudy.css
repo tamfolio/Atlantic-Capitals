@@ -1,6 +1,6 @@
 .casestudy {
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 30px 20px;
 }
 
@@ -13,17 +13,22 @@
 
 .case-box {
     width: 354px;
-    height: 128px;
+    height: 430px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 4px 32px rgba(26, 33, 104, 0.15);
     cursor: pointer;
+    color: #1A2168;
 }
 
 .case-box:hover {
     background-color: #1A2168;
     color: #fff;
+}
+
+.case-text {
+    padding: 0px 20px;
 }
 
 .case-text h6 {
@@ -38,5 +43,4 @@
     font-weight: 600;
     font-size: 26px;
     line-height: 34px;
-    color: #1A2168;
 }
