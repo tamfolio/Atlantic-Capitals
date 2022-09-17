@@ -1,5 +1,6 @@
 import React from 'react'
 import './Manage.css';
+import {HiOutlineChartBar} from 'react-icons/hi'
 
 const Manage = () => {
   return (
@@ -10,7 +11,44 @@ const Manage = () => {
         </div>
         <div className="manage-bottom">
             <div className="manage-bottom-left"></div>
-            <div className="manage-bottom-right"></div>
+            <div className="manage-bottom-right">
+                <div className="box">
+                    <div className="box-left">
+                        <HiOutlineChartBar className='bar-lines'/>
+                    </div>
+                    <div className="box-right">
+                        <h3>Strategic Consulting Services</h3>
+                        <p>At lectus ante ultricies pretium integer amet lobortis. Arcu aliquam senectus </p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="box-left">
+                        <HiOutlineChartBar className='bar-lines'/>
+                    </div>
+                    <div className="box-right">
+                        <h3>Strategic Consulting Services</h3>
+                        <p>At lectus ante ultricies pretium integer amet lobortis. Arcu aliquam senectus </p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="box-left">
+                        <HiOutlineChartBar className='bar-lines'/>
+                    </div>
+                    <div className="box-right">
+                        <h3>Strategic Consulting Services</h3>
+                        <p>At lectus ante ultricies pretium integer amet lobortis. Arcu aliquam senectus </p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="box-left">
+                        <HiOutlineChartBar className='bar-lines'/>
+                    </div>
+                    <div className="box-right">
+                        <h3>Strategic Consulting Services</h3>
+                        <p>At lectus ante ultricies pretium integer amet lobortis. Arcu aliquam senectus </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )

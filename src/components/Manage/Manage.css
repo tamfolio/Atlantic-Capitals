@@ -30,3 +30,55 @@
     color: #FFFFFF;
     padding: 0px 150px;
 }
+
+.manage-bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: transparent;
+    position: relative;
+    top: -100px;
+}
+
+.manage-bottom-left {
+    background-image: url('../../images/manage2.png');
+    width: 780px;
+    height: 614px;
+    margin-right: 20px;
+}
+
+.manage-bottom-right .box {
+    width: 588px;
+    height: 153px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(26, 33, 104, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.manage-bottom-right .box .box-left {
+    width: 105px;
+    height: 105px;
+    background-color: rgba(26, 33, 104, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.bar-lines {
+    color: #1A2168;
+    font-size: 40px;
+    z-index: 5;
+}
+
+.box-right h3 {
+    font-size: 18px;
+}
+
+.box-right p {
+    font-size: 14px;
+}
