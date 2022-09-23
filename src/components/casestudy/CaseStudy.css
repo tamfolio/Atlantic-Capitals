@@ -4,6 +4,22 @@
     padding: 30px 20px;
 }
 
+.casestudy>p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #434343;
+    margin-left: 50px;
+}
+
+.casestudy>h3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 74px;
+    color: #1A2168;
+    margin-left: 50px;
+}
+
 .case-study-box {
     display: flex;
     align-items: center;
@@ -25,6 +41,8 @@
 .case-box:hover {
     background-color: #1A2168;
     color: #fff;
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
 }
 
 .case-text {

@@ -1,0 +1,56 @@
+.newsletter {
+    width: 100%;
+    background-image: url('../../images/newsletter.png');
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Panchang', sans-serif;
+}
+
+.newsletter p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 0px 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.newsletter-form input {
+    width: 609px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    color: #878787;
+    padding: 2px 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.newsletter-btn {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-family: 'Panchang', sans-serif;
+    height: 60px;
+    background-color: #1A2168;
+    border: none;
+    outline: none;
+    padding: 2px 20px;
+}

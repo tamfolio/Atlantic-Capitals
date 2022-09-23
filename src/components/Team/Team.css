@@ -1,0 +1,92 @@
+.team {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
+.team>p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #434343;
+    margin-left: 50px;
+    font-family: 'Panchang', sans-serif;
+}
+
+.team>h3 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 74px;
+    color: #1A2168;
+    margin-left: 50px;
+    font-family: 'Panchang', sans-serif;
+}
+
+.team .team-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    margin-top: 20px;
+}
+
+.team .team-member {
+    position: relative;
+}
+
+.team .team-member img {
+    width: 365px;
+    height: 356px;
+    object-fit: contain;
+}
+
+.team .team-member .team-content {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.team .team-member .team-content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.team .team-member .team-content h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: -20px;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.team .team-member .team-content h4:after {
+    content: '';
+    display: block;
+    width: 70%;
+    padding-top: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+.team-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.icon-wrapper {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-right: 10px;
+}

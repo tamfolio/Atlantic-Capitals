@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #1A2168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 30px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.foot {
+    flex: 1;
+}
+
+.footer-top .foot h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: 'Panchang', sans-serif;
+}
+
+.footer-top .foot h1:after {
+    content: '';
+    width: 10%;
+    display: block;
+    border-bottom: 2px solid #FF7A40;
+    margin-top: 5px;
+}
+
+.footer-top .foot P {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.foot-data {
+    margin-top: 50px;
+}
