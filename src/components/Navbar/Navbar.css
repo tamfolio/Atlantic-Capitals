@@ -1,13 +1,13 @@
 .Navbar {
     background-color: #fff;
-    width: 85%;
+    width: 90%;
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 30px;
     position: absolute;
-    top: 0;
+    top: 15px;
 }
 
 .nav-links {
@@ -22,6 +22,7 @@
     justify-content: space-evenly;
     margin-right: 100px;
     margin-top: 15px;
+    font-family: 'Panchang', sans-serif;
 }
 
 .nav-links ul li {

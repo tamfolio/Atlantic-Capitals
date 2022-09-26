@@ -1,5 +1,5 @@
-.home-banner {
-    background-image: url('../../images/homebanner.png');
+.home-banner2 {
+    background-image: url('../../images/homebanner2.png');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
 
 .banner-contents h1 {
     font-size: 70px;
-    width: 700;
+    font-weight: 700;
     color: #fff;
     font-family: 'Panchang', sans-serif;
 }

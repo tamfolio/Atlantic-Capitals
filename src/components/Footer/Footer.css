@@ -45,3 +45,20 @@
 .foot-data {
     margin-top: 50px;
 }
+
+.foot-data .company-data {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.company-data-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.company-data .numbers {
+    font-weight: 400;
+    font-size: 22px;
+}

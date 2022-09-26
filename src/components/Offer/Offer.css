@@ -24,6 +24,7 @@
     line-height: 32px;
     color: #434343;
     margin-top: 60px;
+    font-family: 'Panchang', sans-serif;
 }
 
 .offer-container h2 {
@@ -31,6 +32,7 @@
     font-size: 56px;
     line-height: 74px;
     color: #1A2168;
+    font-family: 'Panchang', sans-serif;
 }
 
 .offer-box-container {
@@ -39,6 +41,7 @@
     justify-content: space-evenly;
     margin-top: 55px;
     width: 100%;
+    font-family: 'Panchang', sans-serif;
 }
 
 .offer-box {

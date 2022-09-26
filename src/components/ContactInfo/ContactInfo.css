@@ -1,0 +1,101 @@
+.contact-info {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 0px 20px;
+}
+
+.contact-box {
+    width: 100%;
+    background-color: rgba(26, 33, 104, 0.06);
+    padding: 0px 0px 40px 0px;
+}
+
+.contact-box>h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #434343;
+    font-family: 'Panchang', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-box>h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 74px;
+    text-align: center;
+    color: #1A2168;
+    font-family: 'Panchang', sans-serif;
+    text-align: center;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.contact-info-box {
+    background-color: #fff;
+    width: 387px;
+    height: 136px;
+    box-shadow: 0px 0px 24px rgba(26, 33, 104, 0.15);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 15px;
+    padding-top: 25px;
+}
+
+.contact-info-box .contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(26, 33, 104, 0.19);
+    margin-right: 10px;
+    flex: 1;
+}
+
+.contact-info-icon {
+    font-size: 40px;
+    color: #1A2168;
+}
+
+.contact-info-box .contact-text {
+    flex: 3;
+    line-height: 80px;
+}
+
+.contact-info-box .contact-text h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #00002F;
+}
+
+.contact-info-box .contact-text p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #8A8A8A;
+    margin-top: -10px;
+}
+
+.map-img {
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.contact-map {
+    width: 100%;
+    height: 600px;
+}

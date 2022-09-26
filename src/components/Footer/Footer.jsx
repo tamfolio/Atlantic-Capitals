@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import {FaFacebookF,FaTwitter, FaLinkedinIn} from 'react-icons/fa';
 import {FiPhone, FiMail} from 'react-icons/fi';
-import {GrLocation} from 'react-icons/gr';
+import {VscLocation} from 'react-icons/vsc'
 
 const Footer = () => {
   return (
@@ -56,23 +56,25 @@ const Footer = () => {
         <div className="foot">
           <h1>Our Company</h1>
           <div className="foot-data">
-            <FiPhone />
+            <div className="company-data">
+            <FiPhone className='company-data-icon' />
             <div className="numbers">
               <p>080 1256 8964</p>
               <p>080 1256 8964</p>
             </div>
-          </div>
-          <div className="foot-data">
-            <FiMail />
+            </div>
+          <div className="company-data">
+            <FiMail className='company-data-icon'/>
             <div className="numbers">
               <p>info@newdesigning.com</p>
             </div>
           </div>
-          <div className="foot-data">
-            <GrLocation />
+          <div className="company-data">
+            <VscLocation  className='company-data-icon'/>
             <div className="numbers">
               <p>24/B, Hilington City Tower NYC,US</p>
             </div>
+          </div>
           </div>
         </div>
       </div>

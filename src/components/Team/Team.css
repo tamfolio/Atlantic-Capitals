@@ -15,10 +15,10 @@
 }
 
 .team>h3 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 74px;
-    color: #1A2168;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #434343;
     margin-left: 50px;
     font-family: 'Panchang', sans-serif;
 }
@@ -30,10 +30,12 @@
     justify-content: space-between;
     padding: 10px 60px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .team .team-member {
     position: relative;
+    margin-top: 20px;
 }
 
 .team .team-member img {

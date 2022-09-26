@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import {FaSearch, FaChevronDown} from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -10,12 +11,12 @@ const Navbar = () => {
       </div>
       <div className="nav-links">
         <ul className="links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Services</a></li>
-          <li><a href="/">FAQ</a></li>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about-us">About</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/">FAQ</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
         <div className="search_lang">
           <FaSearch/>
