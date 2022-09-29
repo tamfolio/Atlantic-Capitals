@@ -16,24 +16,27 @@
 }
 
 .about-left h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #434343;
+    font-family: 'Panchang', sans-serif;
 }
 
 .about-left h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 34px;
     line-height: 63px;
     color: #1A2168;
+    font-family: 'Panchang', sans-serif;
 }
 
 .about-left p {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.01em;
     color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-left .sub-section {

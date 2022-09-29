@@ -41,11 +41,21 @@
     display: flex;
     color: #1A2168;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .lang {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#lang {
+    border: none;
+    background-color: #fff;
+    margin-left: 10px;
+    color: #1A2168;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 400;
 }

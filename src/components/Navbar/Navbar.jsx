@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import {FaSearch, FaChevronDown} from 'react-icons/fa';
+import {FaSearch} from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -21,8 +21,12 @@ const Navbar = () => {
         <div className="search_lang">
           <FaSearch/>
           <div className="lang">
-            <p>English</p>
-            <FaChevronDown />
+            <select name="language" id="lang">
+              <option value="">English</option>
+              <option value="">German</option>
+              <option value="">French</option>
+              <option value="">Spanish</option>
+            </select>
           </div>
         </div>
       </div>

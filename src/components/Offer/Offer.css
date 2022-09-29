@@ -20,7 +20,7 @@
 
 .offer-container h5 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     color: #434343;
     margin-top: 60px;
@@ -29,7 +29,7 @@
 
 .offer-container h2 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 46px;
     line-height: 74px;
     color: #1A2168;
     font-family: 'Panchang', sans-serif;
@@ -45,14 +45,15 @@
 }
 
 .offer-box {
-    width: 361px;
-    height: 444px;
+    width: 340px;
+    height: 410px;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding: 5px 20px;
 }
 
 .offer-box h2 {
@@ -61,13 +62,15 @@
     color: #00002F;
     line-height: 36.57px;
     margin-bottom: 42px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .offer-box p {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 27px;
     color: #8A8A8A;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .offer-icon {
