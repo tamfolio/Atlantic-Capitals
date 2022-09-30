@@ -58,6 +58,7 @@
     }
     .banner-contents {
         padding: 5px 12px;
+        padding-bottom: 40px;
         margin-top: 96px;
     }
     .banner-contents h2 {
@@ -67,6 +68,9 @@
         font-size: 20px;
     }
     .banner-contents p {
+        font-size: 12px;
+    }
+    .banner-contents .btn1 {
         font-size: 12px;
     }
 }
