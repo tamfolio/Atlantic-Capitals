@@ -51,3 +51,22 @@
     font-size: 16px;
     font-family: 'Panchang', sans-serif;
 }
+
+@media screen and (max-width: 400px) {
+    .home-banner {
+        height: auto;
+    }
+    .banner-contents {
+        padding: 5px 12px;
+        margin-top: 96px;
+    }
+    .banner-contents h2 {
+        font-size: 14px;
+    }
+    .banner-contents h1 {
+        font-size: 20px;
+    }
+    .banner-contents p {
+        font-size: 12px;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import {FaSearch} from 'react-icons/fa';
 import { Link } from "react-router-dom";
+import {HiMenuAlt3} from 'react-icons/hi'
 
 const Navbar = () => {
   return (
@@ -29,7 +30,9 @@ const Navbar = () => {
             </select>
           </div>
         </div>
+        
       </div>
+      <HiMenuAlt3 className='mobile-nav'/>
     </div>
   );
 };
