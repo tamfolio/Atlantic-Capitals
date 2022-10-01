@@ -12,3 +12,12 @@
     width: 150px;
     object-fit: contain;
 }
+
+@media screen and (max-width: 450px) {
+    .Brand {
+        height: 40px;
+    }
+    .Brand img {
+        width: 56px;
+    }
+}

@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 60px 50px;
+    height: auto;
 }
 
 .about-left {
@@ -76,4 +77,42 @@
     top: -63px;
     z-index: -3;
     right: -49px;
+}
+
+@media screen and (max-width:450px) {
+    .about {
+        flex-direction: column-reverse;
+        padding: 30px 25px;
+    }
+    .about-right {
+        margin-bottom: 40px;
+    }
+    .about-left {
+        margin-top: 20px;
+    }
+    .about-left>h2 {
+        font-size: 14px;
+    }
+    .about-left>h1 {
+        font-size: 24px;
+    }
+    .about-left p {
+        font-size: 16px;
+    }
+    .about-right .about-right-img {
+        width: 300px;
+        height: 344px;
+    }
+    .about-right .blue-backdrop {
+        width: 227px;
+        height: 390px;
+    }
+    .about-right .about-right-logo {
+        width: 127px;
+        height: 127px;
+        bottom: -40px;
+    }
+    .about-left .btn1 {
+        display: none;
+    }
 }

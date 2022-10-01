@@ -80,17 +80,24 @@
     margin-bottom: 42px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+    .offer-container {
+        padding: 0px 12px;
+    }
     .offer-container>h5 {
         font-size: 12px;
+        margin-top: 15px;
     }
     .offer-container>h2 {
         font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
     }
     .offer-box-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 0;
     }
     .offer-box {
         width: 300px;

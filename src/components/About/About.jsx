@@ -26,7 +26,7 @@ const About = () => {
                     <img src="/images/sub1.png" alt="" />
                 </div>
             </div>
-            <Button text={'Explore more about us'} className='mt-5'/>
+            <Button text={'Explore more about us'} className='mt-5 about-button'/>
         </div>
         <div className="about-right">
             <div className="blue-backdrop"></div>
