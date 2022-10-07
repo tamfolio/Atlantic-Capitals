@@ -87,3 +87,23 @@
     color: #434343;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 450px) {
+    .insight p {
+        font-size: 14px;
+        margin-left: 0;
+        line-height: 18px;
+    }
+    .insight h3 {
+        font-size: 24px;
+        margin-left: 0;
+        line-height: 32px;
+    }
+    .insight .insight-container {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+    .insight-box {
+        margin-bottom: 10px;
+    }
+}
