@@ -106,9 +106,10 @@
         margin-left: 0;
         line-height: 32px;
     }
-    .team-container {
+    .team .team-container {
         flex-direction: column;
-        padding: 10px 15px;
+        padding: 10px 0px;
         justify-content: center;
+        margin-top: 10px;
     }
 }
