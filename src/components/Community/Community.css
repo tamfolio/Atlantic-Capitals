@@ -53,10 +53,11 @@
 
 @media screen and (max-width: 450px) {
     .community {
+        background-image: url('../../images/com-mobile.png');
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-top: 5px;
+        margin-top: -30px;
     }
     .community>h4 {
         font-size: 12px;

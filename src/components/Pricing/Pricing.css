@@ -108,3 +108,27 @@
     padding: 12px 40px;
     font-family: 'Panchang', sans-serif;
 }
+
+@media screen and (max-width: 450px) {
+    .pricing p {
+        font-size: 14px;
+        margin-left: 0;
+        line-height: 18px;
+    }
+    .pricing h3 {
+        font-size: 24px;
+        margin-left: 0;
+        line-height: 32px;
+    }
+    .pricing-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .price-plan {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .package-plans {
+        margin-left: 40px;
+    }
+}

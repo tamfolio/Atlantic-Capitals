@@ -10,6 +10,7 @@
     line-height: 32px;
     color: #434343;
     margin-left: 50px;
+    font-family: 'Panchang', sans-serif;
 }
 
 .testimonial>h3 {
@@ -18,6 +19,7 @@
     line-height: 74px;
     color: #1A2168;
     margin-left: 50px;
+    font-family: 'Panchang', sans-serif;
 }
 
 .user-container {
@@ -71,4 +73,32 @@
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #8A8A8A;
+}
+
+@media screen and (max-width: 450px) {
+    .testimonial {
+        height: auto;
+        padding: 10px 12px;
+    }
+    .testimonial>p {
+        font-size: 14px;
+        margin-left: 10px;
+        line-height: 18px;
+    }
+    .testimonial>h3 {
+        font-size: 24px;
+        margin-left: 10px;
+        line-height: 32px;
+    }
+    .user-container {
+        flex-direction: column;
+    }
+    .feedback {
+        width: 350px;
+        height: 290px;
+        margin-bottom: 20px;
+    }
+    .feedback>p {
+        line-height: 14px;
+    }
 }

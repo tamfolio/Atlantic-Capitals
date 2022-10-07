@@ -15,12 +15,14 @@
 }
 
 .team>h3 {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #434343;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 74px;
+    color: #1A2168;
     margin-left: 50px;
+    text-align: center;
     font-family: 'Panchang', sans-serif;
+    margin-bottom: 40px;
 }
 
 .team .team-container {
@@ -91,4 +93,22 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.4);
     margin-right: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .team p {
+        font-size: 14px;
+        margin-left: 0;
+        line-height: 18px;
+    }
+    .team h3 {
+        font-size: 24px;
+        margin-left: 0;
+        line-height: 32px;
+    }
+    .team-container {
+        flex-direction: column;
+        padding: 10px 15px;
+        justify-content: center;
+    }
 }
