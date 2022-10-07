@@ -62,3 +62,15 @@
     font-weight: 400;
     font-size: 22px;
 }
+
+@media screen and (max-width: 450px) {
+    .footer-top {
+        flex-direction: column;
+    }
+    .foot {
+        margin-bottom: 20px;
+    }
+    .foot-data {
+        margin-top: 20px;
+    }
+}
