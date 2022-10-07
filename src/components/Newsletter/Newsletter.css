@@ -54,3 +54,34 @@
     outline: none;
     padding: 2px 20px;
 }
+
+@media screen and (max-width: 450px) {
+    .newsletter {
+        height: 340px;
+    }
+    .newsletter h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .newsletter p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0px 10px;
+    }
+    .newsletter-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .newsletter-form input {
+        width: 340px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .newsletter-btn {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+    }
+}
