@@ -86,6 +86,7 @@
     }
     .about-right {
         margin-bottom: 40px;
+        overflow-x: hidden;
     }
     .about-left {
         margin-top: 20px;
@@ -99,6 +100,8 @@
     }
     .about-left p {
         font-size: 16px;
+        line-height: 14px;
+        margin-left: 10px;
     }
     .about-right .about-right-img {
         width: 300px;
@@ -107,6 +110,7 @@
     .about-right .blue-backdrop {
         width: 227px;
         height: 390px;
+        right: -26px;
     }
     .about-right .about-right-logo {
         width: 127px;

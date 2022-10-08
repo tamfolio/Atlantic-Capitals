@@ -1,4 +1,5 @@
 import React from 'react'
+import CaseStudy2 from '../components/casestudy/CaseStudy2'
 import Footer from '../components/Footer/Footer'
 import Homebanner2 from '../components/Homebanner/Homebanner2'
 import Newsletter from '../components/Newsletter/Newsletter'
@@ -12,6 +13,7 @@ const Services = () => {
         <Topbar/>
         <Homebanner2 title='Home/About-us' text='Our Services'/>
         <Offer/>
+        <CaseStudy2/>
         <Prcing/>
         <Newsletter/>
         <Footer/>
