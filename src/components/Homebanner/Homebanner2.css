@@ -53,8 +53,8 @@
 }
 
 @media screen and (max-width: 450px) {
-    .home-banner {
-        height: auto;
+    .home-banner2 {
+        height: 339px;
     }
     .banner-contents {
         padding: 5px 12px;

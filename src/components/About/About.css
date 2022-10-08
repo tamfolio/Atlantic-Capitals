@@ -94,7 +94,8 @@
         font-size: 14px;
     }
     .about-left>h1 {
-        font-size: 24px;
+        font-size: 22px;
+        line-height: 32px;
     }
     .about-left p {
         font-size: 16px;

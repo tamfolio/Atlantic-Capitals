@@ -30,3 +30,11 @@
     text-align: center;
     margin-top: -10px;
 }
+
+@media screen and (max-width:450px) {
+    .Numbers {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

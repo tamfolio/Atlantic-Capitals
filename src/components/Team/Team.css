@@ -96,15 +96,17 @@
 }
 
 @media screen and (max-width: 450px) {
-    .team p {
+    .team>p {
         font-size: 14px;
         margin-left: 0;
         line-height: 18px;
     }
-    .team h3 {
-        font-size: 24px;
+    .team>h3 {
+        font-size: 20px;
         margin-left: 0;
-        line-height: 32px;
+        line-height: 18px;
+        text-align: start;
+        margin-bottom: 10px;
     }
     .team .team-container {
         flex-direction: column;

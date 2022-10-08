@@ -3,6 +3,7 @@ import './Footer.css';
 import {FaFacebookF,FaTwitter, FaLinkedinIn} from 'react-icons/fa';
 import {FiPhone, FiMail} from 'react-icons/fi';
 import {VscLocation} from 'react-icons/vsc'
+import BottomNav from '../Navbar/BottomNav';
 
 const Footer = () => {
   return (
@@ -78,7 +79,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom" />
+      <div className="footer-bottom">
+        <BottomNav/>
+      </div>
     </div>
   );
 };
