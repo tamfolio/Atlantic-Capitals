@@ -1,8 +1,6 @@
 import React from 'react';
 import './BottomNav.css';
-import {FaSearch} from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import {HiMenuAlt3} from 'react-icons/hi'
 
 const BottomNav = () => {
   return (
@@ -15,8 +13,8 @@ const BottomNav = () => {
           <li><Link to="/">FAQ</Link></li>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/contact">Privacy Policy</Link></li>
-          <li><Link to="/contact">Terms and conditions</Link></li>
+          <li><Link to="/privacy">Privacy Policy</Link></li>
+          <li><Link to="/terms">Terms and conditions</Link></li>
         </ul>
       </div>
     </div>
