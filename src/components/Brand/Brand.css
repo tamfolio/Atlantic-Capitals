@@ -13,7 +13,7 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .Brand {
         height: 40px;
     }

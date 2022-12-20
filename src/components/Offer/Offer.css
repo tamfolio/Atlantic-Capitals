@@ -80,7 +80,7 @@
     margin-bottom: 42px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .offer-container {
         padding: 0px 12px;
     }

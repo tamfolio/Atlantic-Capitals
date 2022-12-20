@@ -55,7 +55,7 @@
     padding: 2px 20px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .newsletter {
         height: 340px;
     }

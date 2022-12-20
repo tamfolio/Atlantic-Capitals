@@ -88,7 +88,7 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .insight p {
         font-size: 14px;
         margin-left: 0;

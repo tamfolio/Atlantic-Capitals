@@ -51,7 +51,7 @@
     background-color: #fff;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .community {
         background-image: url('../../images/com-mobile.png');
         background-position: center;

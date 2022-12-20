@@ -64,7 +64,7 @@
     line-height: 34px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .casestudy {
         height: auto;
         margin-top: -100px;

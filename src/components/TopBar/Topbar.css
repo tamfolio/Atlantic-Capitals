@@ -37,7 +37,7 @@
     margin-right: 15px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .topbar {
         padding: 15px 10px;
         height: 50px;
