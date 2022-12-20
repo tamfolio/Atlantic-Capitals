@@ -79,7 +79,7 @@
     right: -49px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 500px) {
     .about {
         flex-direction: column-reverse;
         padding: 30px 25px;

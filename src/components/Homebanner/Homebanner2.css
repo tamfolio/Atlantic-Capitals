@@ -52,7 +52,7 @@
     font-family: 'Panchang', sans-serif;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .home-banner2 {
         height: 339px;
     }

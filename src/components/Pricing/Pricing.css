@@ -109,7 +109,7 @@
     font-family: 'Panchang', sans-serif;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .pricing p {
         font-size: 14px;
         margin-left: 0;

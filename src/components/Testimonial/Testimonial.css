@@ -75,7 +75,7 @@
     color: #8A8A8A;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .testimonial {
         height: auto;
         padding: 10px 12px;
